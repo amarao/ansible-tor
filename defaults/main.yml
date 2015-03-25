@@ -1,0 +1,4 @@
+---
+# defaults file for ansible-tor
+tor_Nickname: CfgByAnsible
+tor_ExitPolicy: reject *:*

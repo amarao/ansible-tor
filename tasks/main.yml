@@ -1,0 +1,8 @@
+---
+- name: Ensure tor is installed and latest version
+  apt: name=tor state=latest
+  notify: Restart tor
+
+- name: Configure tor
+  template: src=torrc.j2 dest=/etc/tor/torrc
+  notify: Restart tor

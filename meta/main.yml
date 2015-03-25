@@ -1,0 +1,19 @@
+---
+galaxy_info:
+  author: George Shuklin
+  description: Tor configuration playbook
+  license: BSD
+  min_ansible_version: 1.6
+  platforms:
+  - name: Ubuntu
+    versions:
+    - all
+  - name: Debian
+    versions:
+    - all
+  
+  categories:
+  - networking
+  - system
+  - web
+dependencies: []
